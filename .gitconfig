@@ -1,0 +1,17 @@
+[user]
+	email = filippovk997@mail.ru
+	name = filippi4
+[alias]
+#	loga = log --pretty=format:\"%C(auto)%h| %<(50)%s |%<(26)%d | %C(red)%<(12)%cn %C(bold blue)%<(12)%ar %C(magenta)%ad\" --date=format:\"%a-%w %H:%M %d.%m.%y\"
+    loga = log --pretty=format:'%C(red)%<(15)%cn %C(magenta)%<(30)%ad %C(bold blue)%<(14)%ar %C(auto)%<(80)%d %<(50)%s %h'
+	sta = status
+    rsa = restore --staged
+    dca = diff --cached
+    cma = commit -m
+    coa = checkout
+	mncfa = merge --no-commit --no-ff
+[core]
+	editor = vim
+	eol = lf
+[credential]
+	helper = store --file ~/.git-credentials
